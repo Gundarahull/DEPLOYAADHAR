@@ -10,7 +10,7 @@ app.use(bodyparser.urlencoded({ extended:false}))
 
 
 app.set('view engine','ejs')
-app.set('views')
+app.set('Views')
 
 //settingup routes
 const enrollroutes=require('./Routes/Enroll-Route')
